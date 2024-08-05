@@ -1,0 +1,101 @@
+.parent {
+    display: flex;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    margin-bottom: 30px;
+}
+
+.user .userImg {
+    height: 70px;
+    border-radius: 50%;
+}
+
+.user .text {
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: .8;
+}
+
+.user .text h2{
+    font-size: 20px;
+}
+.user .text p{
+    font-size: 14px;
+    color: #9ca1a4;
+}
+
+.user button {
+    background-color: white;
+    border-radius: 52px;
+    width: 100px;
+    height: 40px;
+    color: #1da1f3;
+    font-weight: bold;
+    border: 2px solid;
+    border-color: #1da1f3;
+}
+
+
+
+/* storys for users */
+
+.user.selected {
+    border-radius: 15px;
+    border: 1px solid #1da1f4;}
+
+.userStory {
+    margin-left: 120px;
+}
+.userStory .oneStory {
+    position: relative;
+    left: 50px;
+    padding: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+
+.userStory .oneStory img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.userStory .tilte {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: .8;
+}
+
+.userStory .tilte h2{
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.userStory .tilte p{
+    font-size: 15px;
+    color: #9ca1a4;
+}
+
+.userStory .discryption {
+    max-width: 500px;
+    padding-left: 80px;
+}
+.userStory .footer{
+    padding-left: 80px;
+    color: #9ca1a4;
+}
+
+.userStory .footer i{
+    margin-left: 15px;
+    margin-right: 70px;
+    margin-top: 20px;
+    font-size: 15px;
+}
