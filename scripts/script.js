@@ -98,7 +98,7 @@ document.querySelector(".myUsers").addEventListener("click", (e) => {
         let selectedUser = myUserJson.find((user) => user.id == userId);
         if (selectedUser) {
           let userStoryContainer = document.querySelector(".userStory");
-          userStoryContainer.innerHTML = ""; // Clear  user stories
+          userStoryContainer.innerHTML = ""; // Clear previous user stories
           for (let j = 0; j < selectedUser.description.length; j++) {
             let description = `
               <div class="oneStory">
